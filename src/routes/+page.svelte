@@ -23,7 +23,7 @@
         <p class="text-base-body border-2 border-base-primary px-6 py-2 hover:bg-base-primary/25 transition duration-150 delay-75 ease-in-out "> Html and css  </p>
         <p class="text-base-body border-2 border-base-primary px-6 py-2 hover:bg-base-primary/25 transition duration-150 delay-75 ease-in-out "> SvelteKit</p>
         <p class="text-base-body border-2 border-base-primary px-6 py-2 hover:bg-base-primary/25 transition duration-150 delay-75 ease-in-out "> Adonisjs</p>
-        <p class="text-base-body border-2 border-base-primary px-6 py-2 hover:bg-base-primary/25 transition duration-150 delay-75 ease-in-out  "> Gleam</p>
+        <p class="text-base-body border-2 border-base-primary px-6 py-2 hover:bg-base-primary/25 transition duration-150 delay-75 ease-in-out  col-start-2 "> Gleam</p>
     </section>
 </main>
 
