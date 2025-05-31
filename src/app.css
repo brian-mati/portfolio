@@ -10,6 +10,10 @@
 
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
+@plugin 'tailwind-scrollbar' {
+	nocompatible: true;
+	preferredstrategy: 'pseudoelements';
+}
 
 @theme {
 	--color-base-headings: oklch(95.15% 0.01 41.88);
