@@ -1,6 +1,8 @@
 @font-face {
 	font-family: 'roboto';
-	src: url('/font/roboto.ttf') format('truetype');
+	src:
+		url('/font/roboto-variable-woff.woff') format('woff'),
+		url('/font/roboto-variable-woff2.woff2') format('woff2');
 	font-style: normal;
 	font-weight: 400 700;
 	font-display: swap;
