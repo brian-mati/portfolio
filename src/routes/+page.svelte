@@ -1,3 +1,8 @@
+
+<svelte:head>
+    <title>Muthomi Brian</title>
+</svelte:head>
+
 <header class="mb-[5%]">
     <h1 class="text-base-headings font-bold text-headings lg:tracking-normal tracking-tight lg:leading-normal  leading-10 mb-4">
      Muthomi Brian Mati
