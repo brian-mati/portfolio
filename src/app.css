@@ -12,14 +12,17 @@
 @plugin '@tailwindcss/forms';
 
 @theme {
-	--color-base-text: oklch(95.15% 0.01 41.88);
-	--color-base-text-body: hsl(16, 7%, 70%);
+	--color-base-headings: oklch(95.15% 0.01 41.88);
+	--color-base-body: hsl(16, 7%, 70%);
 	--color-base-background: oklch(12.5% 0.014 33.28);
 	--color-base-primary: oklch(78.76% 0.076 41.35);
+
 	--color-base-secondary: oklch(45.06% 0.126 39.12) --color-base-accent: oklch(67.99% 0.18 39.21);
+	--text-headings: 2.986rem;
+	--text-subheading: 2.488rem;
 	--font-mono: 'roboto';
 }
 
 body {
-	font-size: 30px;
+	font-size: 18px;
 }
