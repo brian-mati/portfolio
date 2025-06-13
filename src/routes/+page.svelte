@@ -4,11 +4,11 @@
 </svelte:head>
 
 <header class="mb-[5%]">
-    <h1 class="text-base-headings font-bold text-headings lg:tracking-normal tracking-tight lg:leading-normal  leading-10 mb-4">
+    <h1 class="text-base-headings font-bold text-headings lg:tracking-normal tracking-tight lg:leading-normal  leading-10 mb-4 font-audiowide">
      Muthomi Brian Mati
     </h1>
     
-    <h2 class="text-base-primary text-subheading lg:tracking-normal tracking-tight lg:leading-normal  leading-9 mb-2" > Software developer and web designer </h2>
+    <h2 class="text-base-primary text-subheading lg:tracking-normal tracking-tight lg:leading-normal  leading-9 mb-2 font-inter" > Software developer and web designer </h2>
     
     <p class="text-base-body tracking-wide leading-[120%] w-[900px] mx-auto hidden lg:block">Hello there,  software developer is a vague way to state what I like to do. You can call me a web artisan.  I am most in my element problem solving my and my client's problems and developing efficient solutions to even the most complicated of problems. Simple I-right code that solves the issue on hand. In addition, i enjoy the creative process of coming up with a design for a project, though my perfectionist tendencies do get in the way at times....but the machine is strong.</p>
     <p class="text-base-body tracking-wide leading-[120%] max-w-[900px] mx-auto block lg:hidden">Hello there,  software developer is a vague way to state what I like to do. You can call me a web artisan.</p>
