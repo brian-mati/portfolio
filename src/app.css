@@ -16,17 +16,22 @@
 }
 
 @theme {
-	--color-base-headings: oklch(95.15% 0.01 41.88);
-	--color-base-body: hsl(16, 7%, 70%);
-	--color-base-background: oklch(12.5% 0.014 33.28);
-	--color-base-primary: oklch(78.76% 0.076 41.35);
-
-	--color-base-secondary: oklch(45.06% 0.126 39.12) --color-base-accent: oklch(67.99% 0.18 39.21);
-	--text-headings: 2.986rem;
-	--text-subheading: 2.488rem;
-	--font-mono: 'roboto';
+	--color-light-text: #040a0a;
+	  --color-light-background: #f8fcfc;
+	  --color-light-primary: #4bbcb1;
+	  --color-light-secondary: #93a8d7;
+	  --color-light-accent: #6f6ec9;
 }
 
 body {
 	font-size: 18px;
 }
+
+.dark {
+	--text: #f4fbfb;
+	--background: #030707;
+	--primary: #42b3a7;
+	--secondary: #283d6c;
+	--accent: #373691;
+  }
+  
