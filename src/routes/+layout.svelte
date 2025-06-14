@@ -19,7 +19,7 @@
 
 
 <Navbar/>
-<main class="max-w-lg mx-auto">
+<main class="max-w-lg mx-auto px-2">
 {@render children()}
 </main>
 
@@ -55,8 +55,8 @@
 
 	@media (prefers-reduced-motion: no-preference) {
 		:root::view-transition-old(root) {
-			animation: 90ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
-				300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-left;
+			animation: 200ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
+				1000ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-left;
 		}
 
 		:root::view-transition-new(root) {

@@ -30,6 +30,7 @@
 
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
+@plugin "@tailwindcss/typography";
 @plugin 'tailwind-scrollbar' {
 	nocompatible: true;
 	preferredstrategy: 'pseudoelements';
@@ -41,6 +42,8 @@
 	--color-light-primary: #4bbcb1;
 	--color-light-secondary: #93a8d7;
 	--color-light-accent: #6f6ec9;
+
+	--color-light-errors: #e45454;
 	--color-gray-navs: #d9d9d9;
 	--font-inter: 'Inter';
 	--font-audiowide: 'Audiowide';
