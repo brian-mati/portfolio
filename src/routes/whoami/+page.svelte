@@ -1,6 +1,6 @@
 
 
-<p class="prose lg:prose-xl" >Hello there,<br>
+<p class="prose text-light-text" >Hello there,<br>
     If you’ve made it this far, you’re probably curious about who I am. 
     Aside from a mild obsession with Neo-brutalist design, there’s not much that stands out or so I’d like to think. I enjoy coding and tackling tough problems, even if it gets a bit frustrating up the wall sometimes. It’s all part of the fun.
     
