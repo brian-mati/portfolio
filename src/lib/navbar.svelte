@@ -19,20 +19,21 @@
     <ul class=" items-center justify-between  gap-8 max-w-lg mx-auto  py-4  flex lg:hidden">
         <button class="h-fit flex items-center gap-2" onclick={() => {
             if (visible == false){
-                visible = true
+                visible = !visible
             } else{
                 visible = false
             }
             console.log(visible)
            
         }}>
-            <img src="/menu-icon.png" alt="" class="h-8 ">
+         <img src={visible ? "/close-icon.png" : "/menu-icon.png"} alt="" class="h-8 transition duration-150 delay-75" />
             {#if visible}
             <div in:fade out:fly={{ y:100 ,duration:1000}}>
                 <a  aria-current={page.url.pathname === '/' ? 'page' : undefined} href="/" class="hover:scale-125 transition duration-150 delay-75 hover:drop-shadow-sm hover:shadow-black">Home</a>
                 <a aria-current={page.url.pathname === '/whoami' ? 'page' : undefined}  href="/whoami" class="hover:scale-125 transition duration-150 delay-75 hover:drop-shadow-sm hover:shadow-black">Whoami</a>
             </div>
             {/if}
+
            
         </button>
        

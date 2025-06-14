@@ -2,6 +2,10 @@
 	import '../app.css';
 	import Navbar from '$lib/navbar.svelte';
 	import { onNavigate } from '$app/navigation';
+	import { browser } from '$app/environment';
+	
+
+	const isloading = browser;
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -20,7 +24,14 @@
 
 <Navbar/>
 <main class="max-w-lg mx-auto px-2">
+
+{#if !isloading}
+	<p>Just a bit...</p>
+{:else}
 {@render children()}
+{/if}
+
+
 </main>
 
 
