@@ -2,7 +2,7 @@
     import { page } from "$app/stores";
 </script>
 
-<nav class="h-16 bg-gray-navs min-w-full border-2 border-b-black">
+<nav class="h-16 bg-gray-navs min-w-full border-2 border-b-black mb-8">
     <ul class="flex items-center justify-between  gap-8 max-w-lg mx-auto py-4">
         <a  aria-current={$page.url.pathname === '/' ? 'page' : undefined} href="/" class="hover:scale-125 transition duration-150 delay-75 hover:drop-shadow-sm hover:shadow-black">Home</a>
 

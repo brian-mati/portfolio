@@ -7,7 +7,7 @@
 	const email = 'brianmuthomimati@gmail.com';
     const clipboard = new UseClipboard({delay:500});
 </script>
-<p class="mt-8">Reach out to me by copying my email below</p>
+<p>Reach out to me by copying my email below</p>
 <button
   class="flex items-center  h-11 mt-4 border-2 border-black w-fit"
   onclick={async () => {

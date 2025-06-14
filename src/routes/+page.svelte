@@ -9,7 +9,7 @@
 </script>
 
 
-<p class="mt-8">Hello. I am Muthomi Brian Mati. A freelance web developer and designer . I enjoy bringing ideas to mind in code on this digital scape and shape the internet as we wish it to be.</p>
+<p>Hello. I am Muthomi Brian Mati. A freelance web developer and designer . I enjoy bringing ideas to mind in code on this digital scape and shape the internet as we wish it to be.</p>
 
 
 
