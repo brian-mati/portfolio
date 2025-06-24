@@ -1,7 +1,8 @@
 <script lang="ts">
     import { page } from "$app/state";
+	import { duration } from "drizzle-orm/gel-core";
     import { fade,fly } from 'svelte/transition';
-    let visible = $state(false)
+    let clicked = $state(false)
 </script>
 
 <nav class="h-16 bg-gray-navs min-w-full border-2 border-b-black mb-8 px-2 py-2">
@@ -18,21 +19,26 @@
 
     <ul class=" items-center justify-between  gap-8 max-w-lg mx-auto  py-4  flex lg:hidden">
         <button class="h-fit flex items-center gap-2" onclick={() => {
-            if (visible == false){
-                visible = !visible
+            if (clicked == false){
+                clicked = !clicked
             } else{
-                visible = false
+                clicked = false
             }
-            console.log(visible)
+            console.log(clicked)
            
         }}>
-         <img src={visible ? "/close-icon.png" : "/menu-icon.png"} alt="" class="h-8 transition duration-150 delay-75" />
-            {#if visible}
-            <div in:fade out:fly={{ y:100 ,duration:1000}}>
+       
+       {#if clicked}
+       <img src="/close-icon.png" alt="close icon" aria-label="close the menu on mobile icon" class="h-8" in:fade out:fly={{ y:200,duration:1000}} />
+       {:else}
+       <img src="/menu-icon.png" alt="open menu icon" aria-label="open the menu icon" class="h-8"/>
+       {/if}
+        {#if clicked}
+         <div in:fade out:fly={{ y:100 ,duration:1000}}>
                 <a  aria-current={page.url.pathname === '/' ? 'page' : undefined} href="/" class="hover:scale-125 transition duration-150 delay-75 hover:drop-shadow-sm hover:shadow-black">Home</a>
                 <a aria-current={page.url.pathname === '/whoami' ? 'page' : undefined}  href="/whoami" class="hover:scale-125 transition duration-150 delay-75 hover:drop-shadow-sm hover:shadow-black">Whoami</a>
-            </div>
-            {/if}
+        </div>
+    {/if}
 
            
         </button>
