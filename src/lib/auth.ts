@@ -2,10 +2,10 @@ import { betterAuth } from 'better-auth';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { db } from './server/db';
 import { GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET } from '$env/static/private';
-import { error } from 'console';
+
 
 if (!GITHUB_CLIENT_ID || !GITHUB_CLIENT_SECRET){
-    throw error("github keys absent")
+    throw new Error("github keys absent")
 }
 
 
